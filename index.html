@@ -649,12 +649,12 @@
       }
       async function balas() {
         var { value: pesan } = await swalo.fire({
-          title: "Tulis pesan for elyynn:D",
+          title: "Tulis pesan for Abang",
           input: "text",
           confirmButtonText: "Kirim",
         });
         if (pesan) {
-          await swalo.fire("Kirim ke wa abang ganteng ya jawaban nya");
+          await swalo.fire("Kirim ke wa abang ganteng ya jawaban nya😋");
           location.assign(
             "https://api.whatsapp.com/send?phone=" +
               noWhatsapp +
